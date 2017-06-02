@@ -1,0 +1,103 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'CPSEE'
+  ClientHeight = 540
+  ClientWidth = 805
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  Menu = MainMenu1
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Splitter1: TSplitter
+    Left = 249
+    Top = 33
+    Height = 507
+    ExplicitLeft = 148
+    ExplicitTop = 8
+  end
+  object ToolBar1: TToolBar
+    Left = 0
+    Top = 0
+    Width = 805
+    Height = 33
+    Caption = 'ToolBar1'
+    TabOrder = 0
+  end
+  object Panel1: TPanel
+    Left = 0
+    Top = 33
+    Width = 249
+    Height = 507
+    Align = alLeft
+    BevelOuter = bvNone
+    TabOrder = 1
+    ExplicitTop = 71
+    ExplicitHeight = 475
+    object Splitter2: TSplitter
+      Left = 0
+      Top = 232
+      Width = 249
+      Height = 275
+      Cursor = crVSplit
+      Align = alTop
+      ExplicitLeft = -3
+      ExplicitTop = 238
+    end
+    object Image1: TImage
+      Left = 0
+      Top = 507
+      Width = 249
+      Height = 0
+      Align = alClient
+      ExplicitLeft = 64
+      ExplicitTop = 320
+      ExplicitWidth = 105
+      ExplicitHeight = 105
+    end
+    object TreeView1: TTreeView
+      Left = 0
+      Top = 0
+      Width = 249
+      Height = 232
+      Align = alTop
+      Indent = 19
+      TabOrder = 0
+      ExplicitLeft = -4
+      ExplicitTop = 6
+      ExplicitWidth = 247
+    end
+  end
+  object ListView1: TListView
+    Left = 252
+    Top = 33
+    Width = 553
+    Height = 507
+    Align = alClient
+    Columns = <>
+    TabOrder = 2
+    ExplicitLeft = 312
+    ExplicitTop = 88
+    ExplicitWidth = 250
+    ExplicitHeight = 150
+  end
+  object FreeImage1: TFreeImage
+    Left = 752
+    Top = 8
+  end
+  object MainMenu1: TMainMenu
+    Left = 704
+    Top = 8
+    object File1: TMenuItem
+      Caption = 'File'
+      object Open1: TMenuItem
+        Caption = 'Open'
+      end
+    end
+  end
+end
